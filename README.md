@@ -1,13 +1,17 @@
 # gw2-discord-bot
 
 This is a bot for Discord that integrates with the Guild Wars 2 API.
-
 Setup
 -----
 
 Copy the file config/default.toml to config/local.toml and make your changes there.  Any options you want to leave at the default value you can remove from the local.toml file.
 
 You need to create an application on the discord developers site at https://discordapp.com/developers/applications/.   Create a bot user for it.  The client ID and the bot user token should be entered into your configuration file.  When you start the bot it will display a link which you can use to add it to any servers that you own.
+
+You will need to generate an ArenaNet API key at https://account.arena.net/applications.
+To find your Guild ID type https://api.guildwars2.com/v2/guild/search?name=[Guild Name] (without brackets) into your browser or API call.
+To find your world ID type: https://api.guildwars2.com/v2/worlds?ids=all
+Additional details about the Guild Wars 2 API can be found at https://wiki.guildwars2.com/wiki/API:Main.
 
 Features
 --------
